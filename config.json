@@ -1,0 +1,23 @@
+{
+  "data_source": "csv",
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "name": "ad_analytics"
+  },
+  "analysis": {
+    "time_range": "last_30_days",
+    "metrics": ["impressions", "clicks", "conversions", "cost"],
+    "groupby": ["campaign_id", "platform"]
+  },
+  "report": {
+    "format": "html",
+    "include_charts": true,
+    "export_path": "./data/reports/"
+  },
+  "visualization": {
+    "style": "seaborn",
+    "figure_size": [12, 8],
+    "dpi": 300
+  }
+}
