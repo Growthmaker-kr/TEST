@@ -4,6 +4,28 @@
 
 이미지 광고 성과 분석 시스템은 디지털 마케팅 캠페인의 이미지 광고 성과를 추적하고 분석하는 도구입니다. 다양한 지표를 통해 광고 효율성을 측정하고, 데이터 기반 의사결정을 지원합니다.
 
+## 🖼️ 미리보기
+
+실제 생성되는 대시보드의 모습입니다:
+
+![Dashboard Preview](screenshots/dashboard_preview.html)
+
+### 주요 시각화
+
+<div align="center">
+  <img src="screenshots/campaign_ctr.png" width="45%" alt="캠페인 CTR 비교">
+  <img src="screenshots/platform_distribution.png" width="45%" alt="플랫폼 분포">
+</div>
+
+<div align="center">
+  <img src="screenshots/trend.png" width="90%" alt="성과 트렌드">
+</div>
+
+<div align="center">
+  <img src="screenshots/funnel.png" width="45%" alt="전환 퍼널">
+  <img src="screenshots/heatmap.png" width="45%" alt="요일별 히트맵">
+</div>
+
 ## 🎯 주요 기능
 
 ### 1. 성과 지표 추적

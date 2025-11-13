@@ -36,12 +36,14 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# Reports and Data
+# Reports and Data (except preview files)
 data/reports/*.html
+!data/reports/dashboard_preview.html
 data/reports/*.json
 data/reports/*.txt
 data/reports/*.xlsx
 data/reports/*.png
+!data/reports/*preview*.png
 data/processed/
 
 # Jupyter Notebook
